@@ -1,0 +1,50 @@
+.div{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin: 0 auto;
+    width: 641px;
+}
+.form{
+    margin-top: 181.297px;
+    text-align: center;
+    font-size:0px;
+}
+.text{
+    height: 20px;
+    width: 400px;
+    font-size: 16px;
+    border-top: 1px solid rgb(153, 153, 153);
+    border-right: 0px none rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(179, 179, 179);
+    border-left: 1px solid rgb(153, 153, 153);
+    margin: 0;
+    padding: 8px 78px 9px 7px;
+    outline: none;
+}
+.text:focus{
+    border-top: 1px solid rgb(51, 136, 255);
+    border-right: 0px none rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(51, 136, 255);
+    border-left: 1px solid rgb(51, 136, 255);
+}
+.submit{
+    font-size: 16px;
+    background-color: rgb(49, 126, 243);
+    color: rgb(255, 255, 255);
+    height: 39px;
+    width: 102px;
+    border-top: 0px none rgb(255, 255, 255);
+    border-right: 0px none rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(40, 104, 200);
+    border-left: 0px none rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.ul{
+    display: none;
+    width: 400px;
+}
