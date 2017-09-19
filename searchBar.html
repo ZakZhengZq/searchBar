@@ -3,19 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="css/sea.css"/>
+    <link rel="stylesheet" type="text/css" href="css/sea.css"/>
 </head>
 <body>
 <div class="div">
-    <form class="form">
-        <input type="text" class="text"/>
+    <form class="form" autocomplete="off" onsubmit="return sub(this)">
+        <input type="text" name="t" class="text"/>
         <input type="submit" value="百度一下" class="submit"/>
         <ul class="ul"></ul>
     </form>
 </div>
-<script>
-    window.addEventListener(document.getElementsByClassName("text")[0],onInput)
-
-</script>
+<script src="js/sea.js"></script>
 </body>
 </html>
